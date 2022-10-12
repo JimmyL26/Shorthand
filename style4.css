@@ -94,3 +94,28 @@ body{
   color: purple;
   font-weight: 100;
 }
+
+.quote{
+	font-family: 'Raleway', sans-serif;
+	color: forestgreen;
+}
+
+.sectionTitle{
+	font-family: 'Raleway', sans-serif;
+	color: chartreuse;
+}
+
+#motivation{
+	grid-column: 3/ span 1;
+	border-color: #B2CBB9;
+}
+
+.inspire{
+	background-color: coral;
+	border-radius: 10%;
+	display: grid;
+	grid-template-rows: 50px 1fr 1fr 1fr;
+	justify-content: left;
+	border-style: solid;
+	border-width: 10px;
+}
